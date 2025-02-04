@@ -1,0 +1,278 @@
+/* This document contains the classes of the Individual SDG Page CSS design */
+/* Creates a class for the SDG icon image */
+.goal-icon{
+    position: absolute;
+    left: 212px;
+    top: 176px;
+    filter: drop-shadow(-2px 2px 6px rgba(0, 0, 0, 0.25));
+}
+
+/* Creates a class with a hollow box border */
+.goal-number-box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 191px;
+    height: 72px;
+    left: 544px;
+    top: 176px;
+    border-radius: 20px;
+    border: 5px solid #E5243B;
+}
+
+/* Creates a class for the SDG number */
+.goal-number-text{
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 18px;
+    top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E5243B;
+}
+
+/* Creates a class for the Full title of the SDG */
+.complete-name{
+    position: absolute;
+    width: 850px;
+    height: 91px;
+    left: 548px;
+    top: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E5243B;
+}
+
+/* Creates a class with a solid box */
+.main-goal-box{
+    position: absolute;
+    width: 520px;
+    height: 110px;
+    left: 544px;
+    top: 366px;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background: #E5243B;
+}
+
+/* Creates a class for the description of the SDG */
+.main-goal-text{
+    position: absolute;
+    width: 464px;
+    height: 50px;
+    left: 32px;
+    top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/* Creates a class for the navigation buttons */
+.prev-next-btn-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #E5243B;
+}
+
+/* Creates a class for the previous button */
+.prev-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    left: 287px;
+    top: 486px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    border: 2px solid #E5243B;
+}
+
+/* Creates a class for the previous button */
+.next-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    left: 367px;
+    top: 486px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    border: 2px solid #E5243B;
+}
+
+/* Creates a class for headers */
+.header-text{
+    position: absolute;
+    width: 257px;
+    height: 64px;
+    left: 145px;
+    top: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Creates a class for the text descriptions */
+.description-text{
+    position: absolute;
+    width: 785px;
+    height: 288px;
+    left: 442px;
+    top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    /* text-indent: 30px; */
+    color: #FFFFFF;
+}
+
+/* Creates a class for the why it matters text container */
+.matter-container{
+    position: absolute;
+    width: 1360px;
+    height: 403px; /* +40px */
+    left: -40px;
+    top: 542px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+    background: #E5243B;
+}
+
+/* Creates a class for the infograph images */
+.infograph{
+    position: absolute;
+    /* width: 1120px;
+    height: 1370.9px; */
+    left: 80px;
+    top: 987px;
+}
+
+/* Creates another class for a can do container */
+.can-do-container{
+    position: absolute;
+    width: 1360px;
+    height: 403px; /* +40px */
+    left: -40px;
+    top: 2400px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+    background: #E5243B;
+}
+
+/* Creates a class for a hollow box */
+.spec-target-header-box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 361px;
+    height: 71px;
+    left: 480px;
+    top: 2860px;
+    border: 5px solid #E5243B;
+    border-radius: 20px;
+    border: 5px solid #E5243B;
+}
+
+/* Creates a class for the targets header */
+.spec-target-header-text{
+    position: absolute;
+    width: 329px;
+    height: 32px;
+    left: 16px;
+    top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E5243B;
+}
+
+/* Creates a class for targets container */
+.target-list-container{
+    position: absolute;
+    left: 280px;
+    top: 2955px;
+}
+
+/* Creates a class to position the specific targets */
+ul {
+    list-style-type:none;
+    width: 720px;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    gap: 14px;
+}
+
+/* Creates a class for each target line */
+li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+/* Creates a class for the footer at the bottom */
+.footline{
+    position: absolute;
+    width: 1360px;
+    height: 0px;
+    left: -40px;
+    top: 4170px;
+    border: 2px solid #009DDA;
+    transform: rotate(0.1deg);
+}
+
+/* Creates a class for About Us button */
+.about-us{
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 613px;
+    top: 4175px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border: none;
+    background-color: inherit;
+    color: #000000;
+}

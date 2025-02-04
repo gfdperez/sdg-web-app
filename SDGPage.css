@@ -1,0 +1,341 @@
+/* This document contains the classes of the Individual SDG Page CSS design */
+.sdg-logo-horizontal{
+    position: absolute;
+    width: 1120px;
+    height: 205.03px;
+    left: 80px;
+    top: 148px;
+    /* filter: drop-shadow(-2px 2px 6px rgba(0, 0, 0, 0.25)); */
+}
+
+.sdg-icon-design{
+    filter: drop-shadow(-2px 2px 6px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.icon-goal1{
+    position: absolute;
+    left: 80px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal1-border{
+    border: 3px solid #E5243B;
+}
+
+.icon-goal2{
+    position: absolute;
+    left: 270px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal2-border{
+    border: 3px solid #DDA83A;
+}
+
+.icon-goal3{
+    position: absolute;
+    left: 460px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal3-border{
+    border: 3px solid #4C9F38;
+}
+
+.icon-goal4{
+    position: absolute;
+    left: 650px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal4-border{
+    border: 3px solid #C5192D;
+}
+
+.icon-goal5{
+    position: absolute;
+    left: 840px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal5-border{
+    border: 3px solid #FF3A21;
+}
+
+.icon-goal6{
+    position: absolute;
+    left: 1030px;
+    top: 370px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal6-border{
+    border: 3px solid #26BDE2;
+}
+
+.icon-goal7{
+    position: absolute;
+    left: 80px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal7-border{
+    border: 3px solid #FCC30B;
+}
+
+.icon-goal8{
+    position: absolute;
+    left: 270px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal8-border{
+    border: 3px solid #A21942;
+}
+
+.icon-goal9{
+    position: absolute;
+    left: 460px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal9-border{
+    border: 3px solid #FD6925;
+}
+
+.icon-goal10{
+    position: absolute;
+    left: 650px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal10-border{
+    border: 3px solid #DD1367;
+}
+
+.icon-goal11{
+    position: absolute;
+    left: 840px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal11-border{
+    border: 3px solid #FD9D24;
+}
+
+.icon-goal12{
+    position: absolute;
+    left: 1030px;
+    top: 560px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal12-border{
+    border: 3px solid #BF8B2E;
+}
+
+.icon-goal13{
+    position: absolute;
+    left: 80px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal13-border{
+    border: 3px solid #3F7E44;
+}
+
+.icon-goal14{
+    position: absolute;
+    left: 270px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal14-border{
+    border: 3px solid #0A97D9;
+}
+
+.icon-goal15{
+    position: absolute;
+    left: 460px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal15-border{
+    border: 3px solid #56C02B;
+}
+
+.icon-goal16{
+    position: absolute;
+    left: 650px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal16-border{
+    border: 3px solid #00689D;
+}
+
+.icon-goal17{
+    position: absolute;
+    left: 840px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-icon-design.goal17-border{
+    border: 3px solid #19486A;
+}
+
+.sdg-wheel{
+    position: absolute;
+    left: 1030px;
+    top: 750px;
+    border: none;
+    background-color: inherit;
+}
+
+.sdg-wheel:hover{
+    opacity: 0.7;
+}
+
+.click-note{
+    position: absolute;
+    width: 281px;
+    height: 16px;
+    left: 495px;
+    top: 939px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.185em;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.header-text{
+    position: absolute;
+    width: 700px;
+    height: 32px;
+    left: 330px;
+    top: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.description-text{
+    position: absolute;
+    width: 1100px;
+    height: 54px;
+    left: 130px;
+    top: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    text-indent: 30px;
+    color: #FFFFFF;
+}
+
+.link-text{
+    position: absolute;
+    width: 210px;
+    height: 32px;
+    left: 575px; /* +40px */
+    top: 162px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    border: none;
+    background-color: inherit;
+}
+
+.progress-container{
+    position: absolute;
+    width: 1360px;
+    height: 200px;
+    left: -40px;
+    top: 973px;
+    background: #009DDA;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footline{
+    position: absolute;
+    width: 1360px;
+    height: 0px;
+    left: -40px;
+    top: 1244px;
+
+    border: 2px solid #009DDA;
+    transform: rotate(0.1deg);
+}
+
+.about-us{
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 613px;
+    top: 1249px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border: none;
+    background-color: inherit;
+    color: #000000;
+}

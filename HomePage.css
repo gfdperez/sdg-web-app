@@ -1,0 +1,161 @@
+/* This document contains the classes of the Home Page CSS design */
+.sdg-wheel{
+    position: absolute;
+    left: 164px;
+    top: 184px;
+    filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.what-is-sdg-text{
+    position: absolute;
+    width: 484px;
+    height: 300px;
+    left: 665px;
+    top: 239px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+
+    color: #2F2F2F;
+
+    text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-text{
+    position: absolute;
+    width: 700px;
+    height: 32px;
+    left: 330px;
+    top: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.description-text{
+    position: absolute;
+    width: 1100px;
+    height: 54px;
+    left: 130px;
+    top: 82px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    text-indent: 30px;
+    color: #FFFFFF;
+}
+
+.better-world-container{
+    position: absolute;
+    width: 1360px;
+    height: 200px;
+    left: -40px;
+    top: 632px;
+    background: #009DDA;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sdg-poster{
+    position: absolute;
+    left: 228px;
+    top: 854px;
+}
+
+.history-container{
+    position: absolute;
+    width: 1360px;
+    height: 200px;
+    left: -40px;
+    top: 1459px;
+    background: #009DDA;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.decade-of-action{
+    position: absolute;
+    left: 128px;
+    top: 1754px;
+}
+
+.decade-container{
+    position: absolute;
+    width: 1360px;
+    height: 200px;
+    left: -40px;
+    top: 1992px;
+    background: #009DDA;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sdg-logo-horizontal{
+    position: absolute;
+    left: 227px;
+    top: 2267px;
+    filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.learn-sdg-btn{
+    position: absolute;
+    width: 383px;
+    height: 70px;
+    left: 670px;
+    top: 2267px;
+    background: #02558B;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footline{
+    position: absolute;
+    width: 1360px;
+    height: 0px;
+    left: -40px;
+    top: 2431px;
+
+    border: 2px solid #009DDA;
+    transform: rotate(0.1deg);
+}
+
+.about-us{
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 613px;
+    top: 2436px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border: none;
+    background-color: inherit;
+    color: #000000;
+}

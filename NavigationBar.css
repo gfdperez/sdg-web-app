@@ -1,0 +1,209 @@
+/* This document contains the classes of the Navigation Bar CSS design */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper{
+    position: relative;
+    background-color: #fff;
+    /*min-height: 100px;*/
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 0px;
+}
+
+.logo-SDG-compact {
+    position: absolute;
+    width: 140px;
+    height: 83px;
+    left: 80px;
+    top: 12px;
+    filter: drop-shadow(-1px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navi-bar-button-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #009DDA;
+    border: none;
+    background-color: inherit;
+    text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-button{
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 672px;
+    top: 53px;
+}
+
+.drop-menu-icon{
+    position: absolute;
+    left: 790px;
+    top: 54px;
+}
+
+.sdg-button{
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 772px;
+    top: 53px;
+}
+
+.aboutUs-button{
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    left: 939px;
+    top: 56px;
+}
+
+.soc-med-icons{
+    border: none;
+    background-color: inherit;
+}
+
+.fb-logo{
+    position: absolute;
+    left: 1075px;
+    top: 48px;
+}
+
+.twitter-logo{
+    position: absolute;
+    left: 1120px;
+    top: 48px;
+}
+
+.ig-logo{
+    position: absolute;
+    left: 1165px;
+    top: 48px;
+}
+
+.header-separator{
+    position: relative;
+    width: 1360px;
+    height: 25px;
+    left: -40px;
+    top: 107px;
+
+    background: #009DDA;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.drop-menu-container{
+    display: none; /*TODO: Edit */
+    z-index: 3;
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    height: 615px;
+    left: 640px;
+    top: 87px;
+    background: #FFFFFF;
+    border: 5px solid #009DDA;
+    box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.drop-menu-container.reveal{
+    display: block;
+}
+
+.drop-menu-text{
+    position: absolute;
+    left: 15px;
+    width: 519px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #009DDA;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: inherit;
+}
+
+.dm-btn-see-all{
+    top: 13px;
+}
+
+.dm-btn-goal1{
+    top: 43px;
+}
+
+.dm-btn-goal2{
+    top: 77px;
+}
+
+.dm-btn-goal3{
+    top: 109px;
+}
+
+.dm-btn-goal4{
+    top: 141px;
+}
+
+.dm-btn-goal5{
+    top: 175px;
+}
+
+.dm-btn-goal6{
+    top: 207px;
+}
+
+.dm-btn-goal7{
+    top: 242px;
+}
+
+.dm-btn-goal8{
+    top: 274px;
+}
+
+.dm-btn-goal9{
+    top: 306px;
+}
+
+.dm-btn-goal10{
+    top: 338px;
+}
+
+.dm-btn-goal11{
+    top: 370px;
+}
+
+.dm-btn-goal12{
+    top: 402px;
+}
+
+.dm-btn-goal13{
+    top: 434px;
+}
+
+.dm-btn-goal14{
+    top: 466px;
+}
+
+.dm-btn-goal15{
+    top: 498px;
+}
+
+.dm-btn-goal16{
+    top: 530px;
+}
+
+.dm-btn-goal17{
+    top: 562px;
+}

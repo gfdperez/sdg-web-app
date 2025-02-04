@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 2: Zero Hunger</title>
+    <!--CSS Implementation-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="Goal_Page.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Start of Navigation Bar-->
+        <!--Official Logo of the Sustainable Development Goals-->
+        <div class="logo-SDG-compact">
+          <img src="Assets/SDG_Logo_NaviBar.png" alt="SDG Logo" width="140" height="83">
+        </div>
+
+        <!--Home Button of the Navigation Bar that goes directly into the Home Webpage when clicked-->
+        <a href="index.html">
+          <button class="navi-bar-button-text home-button">HOME</button>
+        </a>
+        
+        <!--SDG Page Button of the Navigation Bar-->
+        <button class="navi-bar-button-text sdg-button">THE 17 SDG</button>
+        <!--A Drop-Down Menu Bar is display when the SDG Page Button is clicked-->
+        <div class="drop-menu-container">
+          <!--This Drop-Down Menu lists all goals under the 17 SDGs. 
+            The users can directly go to the page of the specific or
+            they can see all the SDGs with their icons and overall 
+            progress on a separate webpage.
+          -->
+          <a href="SDGPage.html">
+            <button class="drop-menu-text dm-btn-see-all">SEE ALL SGDs AND OVERALL PROGRESS</button>
+          </a>
+          <a href="Goal1_Page.html">
+            <button class="drop-menu-text dm-btn-goal1">GOAL 1: NO POVERTY</button>
+          </a>
+          <a href="Goal2_Page.html">
+            <button class="drop-menu-text dm-btn-goal2">GOAL 2: ZERO HUNGER</button>
+          </a>
+          <a href="Goal3_Page.html">
+            <button class="drop-menu-text dm-btn-goal3">GOAL 3: GOOD AND HEALTH AND WELL-BEING</button>
+          </a>
+          <a href="Goal4_Page.html">
+            <button class="drop-menu-text dm-btn-goal4">GOAL 4: QUALITY EDUCATION</button>
+          </a>
+          <a href="Goal5_Page.html">
+            <button class="drop-menu-text dm-btn-goal5">GOAL 5: GENDER EQUALITY</button>
+          </a>
+          <a href="Goal6_Page.html">
+            <button class="drop-menu-text dm-btn-goal6">GOAL 6: CLEAN WATER AND SANITATION</button>
+          </a>
+          <a href="Goal7_Page.html">
+            <button class="drop-menu-text dm-btn-goal7">GOAL 7: AFFORDABLE AND CLEAN ENERGY</button>
+          </a>
+          <a href="Goal8_Page.html">
+            <button class="drop-menu-text dm-btn-goal8">GOAL 8: DECENT WORK AND ECONOMIC GROWTH</button>
+          </a>
+          <a href="Goal9_Page.html">
+            <button class="drop-menu-text dm-btn-goal9">GOAL 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE</button>
+          </a>
+          <a href="Goal10_Page.html">
+            <button class="drop-menu-text dm-btn-goal10">GOAL 10: REDUCED INEQUALITIES</button>
+          </a>
+          <a href="Goal11_Page.html">
+            <button class="drop-menu-text dm-btn-goal11">GOAL 11: SUSTAINABLE CITIES AND COMMUNITIES</button>
+          </a>
+          <a href="Goal12_Page.html">
+            <button class="drop-menu-text dm-btn-goal12">GOAL 12: RESPONSIBLE CONSUMPTION AND PRODUCTION</button>
+          </a>
+          <a href="Goal13_Page.html">
+            <button class="drop-menu-text dm-btn-goal13">GOAL 13: CLIMATE ACTION</button>
+          </a>
+          <a href="Goal14_Page.html">
+            <button class="drop-menu-text dm-btn-goal14">GOAL 14: LIFE BELOW WATER</button>
+          </a>
+          <a href="Goal15_Page.html">
+            <button class="drop-menu-text dm-btn-goal15">GOAL 15: LIFE ON LAND</button>
+          </a>
+          <a href="Goal16_Page.html">
+            <button class="drop-menu-text dm-btn-goal16">GOAL 16: PEACE, JUSTICE AND STRONG INSTITUTIONS</button>
+          </a>
+          <a href="Goal17_Page.html">
+            <button class="drop-menu-text dm-btn-goal17">GOAL 17: PARTNERSHIPS FOR THE GOALS</button>
+          </a>
+        </div>
+
+        <!--About Us Button of the Navigation Bar that goes directly into the Aboout Us Webpage when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="navi-bar-button-text aboutUs-button">ABOUT US</button>
+        </a>
+
+        <!--Facebook Logo Button of the Navigation Bar that goes directly into the Official Facebook Page of SDG Campaigns when clicked-->
+        <a href="https://www.facebook.com/globalgoalsUN">
+          <button class="soc-med-icons fb-logo">
+            <img id="fb-logo" src="Assets/fb_logo.png" alt="SDG Faceook" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Twitter Logo Button of the Navigation Bar that goes directly into the Official Twitter Page of SDG Campaigns when clicked-->
+        <a href="https://twitter.com/connectsdgs?lang=en">
+          <button class="soc-med-icons twitter-logo">
+            <img id="twitter-logo" src="Assets/twitter_logo.png" alt="SDG Twitter" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Instagram Logo Button of the Navigation Bar that goes directly into the Official Instagram Page of SDG Campaigns when clicked-->
+        <a href="https://www.instagram.com/theglobalgoals/?hl=en">
+          <button class="soc-med-icons ig-logo">
+            <img id="ig-logo" src="Assets/ig_logo.png" alt="SDG Instagram" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Separator Bar that seperates the Navigation Bar from the Main Content-->
+        <div class="header-separator"></div>
+        
+
+        <!--End of Navigation Bar-->
+        <!--Start of Main Content-->
+
+
+        <!--Icon Image of the Sustainable Development Goal. This conatins the id of the page that is used for the javascript implementation-->
+        <img id="page-goal2" class="goal-icon" src="Assets/SDG Icons/Goal-02.png" alt="Goal 2 Logo" width="300" height="300">
+        
+        <!--Indicates the Goal Number of the SDG-->
+        <div class="goal-number-box">
+            <div class="goal-number-text">Goal 2</div>
+        </div>
+
+        <!--Displays the complete name of the goal-->
+        <div class="complete-name">Zero Hunger</div>
+
+        <!--Displays the main objective of the goal-->
+        <div class="main-goal-box">
+            <div class="main-goal-text">To end hunger, achieve food security and improved nutrition and promote sustainable agriculture.</div>
+        </div>
+
+        <!--These are navigation buttons which enables the user to go the previous and next Goal page-->
+        <a href="Goal1_Page.html">
+            <button class="prev-next-btn-text prev-btn">< Prev</button>
+        </a>
+        <a href="Goal3_Page.html">
+            <button class="prev-next-btn-text next-btn">Next ></button>
+        </a>
+
+        <!--This contains the description that answers why the goal matters to be achieved-->
+        <div class="matter-container">
+            <p class="header-text">Why does it matter?</p> 
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Extreme hunger and malnutrition remains a barrier to sustainable development and creates a trap from which people cannot easily escape. Hunger and malnutrition mean less productive individuals, who are more prone to disease and thus often unable to earn more and improve their livelihoods. 2 billion people in the world do not have regular access to safe, nutritious and sufficient food. In 2019, 144 million children under the age of 5 were stunted, and 47 million were affected by wasting.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Along with conflict, climate shocks and the locust crisis, the pandemic poses an additional threat to food systems. Civil insecurity and declining food production have all contributed to food scarcity and high food prices. 
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                More than 690 million people were undernourished in 2019, mainly in Asia and Africa. People experiencing moderate food insecurity are typically unable to eat a healthy, balanced diet on a regular basis because of income or other resource constraints. If these trends continue, an estimated 840 million people will go hungry by 2030
+                </p>
+        </div>
+
+        <!--Displays the infographic containing significant information related to the goal-->
+        <img class="infograph" src="Assets/SDG Infographs/Infograph-Goal-02.png" alt="Goal 1 Infograph" width="1120" height="1371">
+
+        <!--This contains the description that answers what the audience can do to help in achieving the goal-->
+        <div class="can-do-container">
+            <p class="header-text">So what can I do about it?</p> 
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Food security requires a multi-dimensional approach – from social protection to safeguard safe and nutritious food especially for children - to transforming food systems to achieve a more inclusive and sustainable world. There will need to be investments in rural and urban areas and in social protection so poor people have access to food and can improve their livelihoods. 
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                You can make changes in your own life—at home, at work and in the community—by supporting local farmers or markets and making sustainable food choices, supporting good nutrition for all, and fighting food waste. 
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                You can also use your power as a consumer and voter, demanding businesses and governments make the choices and changes that will make Zero Hunger a reality. Join the conversation, whether on social media platforms or in your local communities.
+                </p>
+                <!-- <br><br>&nbsp;&nbsp;&nbsp;&nbsp; --> 
+        </div>
+
+        <!--The next elements from this point displays the list of specific targets for the corresponding Sustainable Development Goal-->
+        <div class="spec-target-header-box">
+            <div class="spec-target-header-text">Specific targets</div>
+        </div>
+        <div class="target-list-container">
+            <ul>
+                <li>2.1 By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.</li>
+                <li>2.2 By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.</li>
+                <li>2.3 By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment.</li>
+                <li>2.4 By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality.</li>
+                <li>2.5 By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed.</li>
+                <li>2.A Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries.</li>
+                <li>2.B Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round.</li>
+                <li>2.C Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility.</li>
+            </ul>
+        </div>
+        
+        <!--End of Main Content-->
+
+        <!--A line that separates the main content of the page from the footer-->
+        <div class="footline"></div>
+        <!--Footer Button that enables the user to go to the About Us Page when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="about-us">About Us</button>
+        </a>
+    </div>
+    <!--JavaScript Implementation-->
+    <!--JavaScript Implementation-->
+    <script src="Goal_Page.js"></script>
+    <script src="NavigationBar.js"></script>
+</body>
+</html>

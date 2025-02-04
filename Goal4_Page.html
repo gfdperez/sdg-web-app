@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 4: Education</title>
+    <!--CSS Implementation-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="Goal_Page.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Start of Navigation Bar-->
+        <!--Official Logo of the Sustainable Development Goals-->
+        <div class="logo-SDG-compact">
+          <img src="Assets/SDG_Logo_NaviBar.png" alt="SDG Logo" width="140" height="83">
+        </div>
+
+        <!--Home Button of the Navigation Bar that goes directly into the Home Webpage when clicked-->
+        <a href="index.html">
+          <button class="navi-bar-button-text home-button">HOME</button>
+        </a>
+
+        <!--SDG Page Button of the Navigation Bar-->
+        <button class="navi-bar-button-text sdg-button">THE 17 SDG</button>
+        <!--A Drop-Down Menu Bar is display when the SDG Page Button is clicked-->
+        <div class="drop-menu-container">
+          <!--This Drop-Down Menu lists all goals under the 17 SDGs.
+            The users can directly go to the page of the specific or
+            they can see all the SDGs with their icons and overall
+            progress on a separate webpage.
+          -->
+          <a href="SDGPage.html">
+            <button class="drop-menu-text dm-btn-see-all">SEE ALL SGDs AND OVERALL PROGRESS</button>
+          </a>
+          <a href="Goal1_Page.html">
+            <button class="drop-menu-text dm-btn-goal1">GOAL 1: NO POVERTY</button>
+          </a>
+          <a href="Goal2_Page.html">
+            <button class="drop-menu-text dm-btn-goal2">GOAL 2: ZERO HUNGER</button>
+          </a>
+          <a href="Goal3_Page.html">
+            <button class="drop-menu-text dm-btn-goal3">GOAL 3: GOOD AND HEALTH AND WELL-BEING</button>
+          </a>
+          <a href="Goal4_Page.html">
+            <button class="drop-menu-text dm-btn-goal4">GOAL 4: QUALITY EDUCATION</button>
+          </a>
+          <a href="Goal5_Page.html">
+            <button class="drop-menu-text dm-btn-goal5">GOAL 5: GENDER EQUALITY</button>
+          </a>
+          <a href="Goal6_Page.html">
+            <button class="drop-menu-text dm-btn-goal6">GOAL 6: CLEAN WATER AND SANITATION</button>
+          </a>
+          <a href="Goal7_Page.html">
+            <button class="drop-menu-text dm-btn-goal7">GOAL 7: AFFORDABLE AND CLEAN ENERGY</button>
+          </a>
+          <a href="Goal8_Page.html">
+            <button class="drop-menu-text dm-btn-goal8">GOAL 8: DECENT WORK AND ECONOMIC GROWTH</button>
+          </a>
+          <a href="Goal9_Page.html">
+            <button class="drop-menu-text dm-btn-goal9">GOAL 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE</button>
+          </a>
+          <a href="Goal10_Page.html">
+            <button class="drop-menu-text dm-btn-goal10">GOAL 10: REDUCED INEQUALITIES</button>
+          </a>
+          <a href="Goal11_Page.html">
+            <button class="drop-menu-text dm-btn-goal11">GOAL 11: SUSTAINABLE CITIES AND COMMUNITIES</button>
+          </a>
+          <a href="Goal12_Page.html">
+            <button class="drop-menu-text dm-btn-goal12">GOAL 12: RESPONSIBLE CONSUMPTION AND PRODUCTION</button>
+          </a>
+          <a href="Goal13_Page.html">
+            <button class="drop-menu-text dm-btn-goal13">GOAL 13: CLIMATE ACTION</button>
+          </a>
+          <a href="Goal14_Page.html">
+            <button class="drop-menu-text dm-btn-goal14">GOAL 14: LIFE BELOW WATER</button>
+          </a>
+          <a href="Goal15_Page.html">
+            <button class="drop-menu-text dm-btn-goal15">GOAL 15: LIFE ON LAND</button>
+          </a>
+          <a href="Goal16_Page.html">
+            <button class="drop-menu-text dm-btn-goal16">GOAL 16: PEACE, JUSTICE AND STRONG INSTITUTIONS</button>
+          </a>
+          <a href="Goal17_Page.html">
+            <button class="drop-menu-text dm-btn-goal17">GOAL 17: PARTNERSHIPS FOR THE GOALS</button>
+          </a>
+        </div>
+
+        <!--About Us Button of the Navigation Bar that goes directly into the Aboout Us Webpage when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="navi-bar-button-text aboutUs-button">ABOUT US</button>
+        </a>
+
+        <!--Facebook Logo Button of the Navigation Bar that goes directly into the Official Facebook Page of SDG Campaigns when clicked-->
+        <a href="https://www.facebook.com/globalgoalsUN">
+          <button class="soc-med-icons fb-logo">
+            <img id="fb-logo" src="Assets/fb_logo.png" alt="SDG Faceook" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Twitter Logo Button of the Navigation Bar that goes directly into the Official Twitter Page of SDG Campaigns when clicked-->
+        <a href="https://twitter.com/connectsdgs?lang=en">
+          <button class="soc-med-icons twitter-logo">
+            <img id="twitter-logo" src="Assets/twitter_logo.png" alt="SDG Twitter" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Instagram Logo Button of the Navigation Bar that goes directly into the Official Instagram Page of SDG Campaigns when clicked-->
+        <a href="https://www.instagram.com/theglobalgoals/?hl=en">
+          <button class="soc-med-icons ig-logo">
+            <img id="ig-logo" src="Assets/ig_logo.png" alt="SDG Instagram" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Separator Bar that seperates the Navigation Bar from the Main Content-->
+        <div class="header-separator"></div>
+
+
+        <!--End of Navigation Bar-->
+        <!--Start of Main Content-->
+
+
+        <!--Icon Image of the Sustainable Development Goal. This conatins the id of the page that is used for the javascript implementation-->
+        <img id="page-goal4" class="goal-icon" src="Assets/SDG Icons/Goal-04.png" alt="Goal 4 Logo" width="300" height="300">
+
+        <!--Indicates the Goal Number of the SDG-->
+        <div class="goal-number-box">
+            <div class="goal-number-text">Goal 4</div>
+        </div>
+
+        <!--Displays the complete name of the goal-->
+        <div class="complete-name">Inclusive and Quality Education</div>
+
+        <!--Displays the main objective of the goal-->
+        <div class="main-goal-box">
+            <div class="main-goal-text">Ensure inclusive and quality education for all and promote lifelong learning.</div>
+        </div>
+
+        <!--These are navigation buttons which enables the user to go the previous and next Goal page-->
+        <a href="Goal3_Page.html">
+            <button class="prev-next-btn-text prev-btn">< Prev</button>
+        </a>
+        <a href="Goal5_Page.html">
+            <button class="prev-next-btn-text next-btn">Next ></button>
+        </a>
+
+        <!--This contains the description that answers why the goal matters to be achieved-->
+        <div class="matter-container">
+            <p class="header-text">Why does it matter?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Education helps reduce inequalities and reach gender equality and is crucial to fostering tolerance and more peaceful societies.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Over the past decade, major progress has been made towards increasing access to education and school enrollment rates at all levels, particularly for girls. Nevertheless, about 258 million children annd youth were still out of school in 2018 — nearly one fifth of the global population in that age group.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                As the COVID-19 pandemic spread across the globe, countries announced the temporary closure of schools, impacting more than 91 per cent of students worldwide. By April 2020, close to 1.6 billion children and youth were out of school.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Despite years of steady growth in enrolment rates, non-proficiency rates remain disturbingly high. In 2018, some 773 million adults—twothirds of whom are women—remained illiterate in terms of reading and writing skills. And the sheer magnitude of school closures due to COVID-19 is likely to set back progress on access to education.
+                </p>
+        </div>
+
+        <!--Displays the infographic containing significant information related to the goal-->
+        <img class="infograph" src="Assets/SDG Infographs/Infograph-Goal-04.png" alt="Goal 4 Infograph" width="1120" height="1371">
+
+        <!--This contains the description that answers what the audience can do to help in achieving the goal-->
+        <div class="can-do-container">
+            <p class="header-text">So what can I do about it?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Ask our governments to place education as a priority in both policy and practice. Lobby our governments to make firm commitments to provide free primary school education to all, including vulnerable or marginalized groups.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Teachers play an important role in childhood development and must have in their hands the right tools and resources to create an enabling environment in which students feel safe and free to be able to comment, talk about their feelings, and learn.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                We must develop trained teachers that can transform the future, one child at a time. We can obtain this by training our teachers in methods such as Montessori or open learning to promote an active learning pedagogy.
+                </p>
+                <!-- <br><br>&nbsp;&nbsp;&nbsp;&nbsp; -->
+        </div>
+
+        <!--The next elements from this point displays the list of specific targets for the corresponding Sustainable Development Goal-->
+        <div class="spec-target-header-box">
+            <div class="spec-target-header-text">Specific targets</div>
+        </div>
+        <div class="target-list-container">
+            <ul>
+            <li>4.1 By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and Goal-4 effective learning outcomes.</li>
+            <li>4.2 By 2030, ensure that all girls and boys have access to quality early childhood development, care and preprimary education so that they are ready for primary education.</li>
+            <li>4.3 By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university.</li>
+            <li>4.4 By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship</li>
+            <li>4.5 By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations.</li>
+            <li>4.6 By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy.</li>
+            <li>4.7 By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development.</li>
+            <li>4.A Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, nonviolent, inclusive and effective learning environments for all.</li>
+            <li>4.B By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries.</li>
+            <li>4.C By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing states.</li>
+            </ul>
+        </div>
+
+        <!--End of Main Content-->
+
+        <!--A line that separates the main content of the page from the footer-->
+        <div class="footline"></div>
+        <!--Footer Button that enables the user to go to the About Us Page when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="about-us">About Us</button>
+        </a>
+    </div>
+    <!--JavaScript Implementation-->
+    <!--JavaScript Implementation-->
+    <script src="Goal_Page.js"></script>
+    <script src="NavigationBar.js"></script>
+</body>
+</html>

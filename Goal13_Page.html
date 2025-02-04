@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 13: Climate Action</title>
+    <!--CSS Implementation-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="Goal_Page.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Start of Navigation Bar-->
+        <!--Official Logo of the Sustainable Development Goals-->
+        <div class="logo-SDG-compact">
+          <img src="Assets/SDG_Logo_NaviBar.png" alt="SDG Logo" width="140" height="83">
+        </div>
+
+        <!--Home Button of the Navigation Bar that goes directly into the Home Webpage when clicked-->
+        <a href="index.html">
+          <button class="navi-bar-button-text home-button">HOME</button>
+        </a>
+
+        <!--SDG Page Button of the Navigation Bar-->
+        <button class="navi-bar-button-text sdg-button">THE 17 SDG</button>
+        <!--A Drop-Down Menu Bar is display when the SDG Page Button is clicked-->
+        <div class="drop-menu-container">
+          <!--This Drop-Down Menu lists all goals under the 17 SDGs.
+            The users can directly go to the page of the specific or
+            they can see all the SDGs with their icons and overall
+            progress on a separate webpage.
+          -->
+          <a href="SDGPage.html">
+            <button class="drop-menu-text dm-btn-see-all">SEE ALL SGDs AND OVERALL PROGRESS</button>
+          </a>
+          <a href="Goal1_Page.html">
+            <button class="drop-menu-text dm-btn-goal1">GOAL 1: NO POVERTY</button>
+          </a>
+          <a href="Goal2_Page.html">
+            <button class="drop-menu-text dm-btn-goal2">GOAL 2: ZERO HUNGER</button>
+          </a>
+          <a href="Goal3_Page.html">
+            <button class="drop-menu-text dm-btn-goal3">GOAL 3: GOOD AND HEALTH AND WELL-BEING</button>
+          </a>
+          <a href="Goal4_Page.html">
+            <button class="drop-menu-text dm-btn-goal4">GOAL 4: QUALITY EDUCATION</button>
+          </a>
+          <a href="Goal5_Page.html">
+            <button class="drop-menu-text dm-btn-goal5">GOAL 5: GENDER EQUALITY</button>
+          </a>
+          <a href="Goal6_Page.html">
+            <button class="drop-menu-text dm-btn-goal6">GOAL 6: CLEAN WATER AND SANITATION</button>
+          </a>
+          <a href="Goal7_Page.html">
+            <button class="drop-menu-text dm-btn-goal7">GOAL 7: AFFORDABLE AND CLEAN ENERGY</button>
+          </a>
+          <a href="Goal8_Page.html">
+            <button class="drop-menu-text dm-btn-goal8">GOAL 8: DECENT WORK AND ECONOMIC GROWTH</button>
+          </a>
+          <a href="Goal9_Page.html">
+            <button class="drop-menu-text dm-btn-goal9">GOAL 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE</button>
+          </a>
+          <a href="Goal10_Page.html">
+            <button class="drop-menu-text dm-btn-goal10">GOAL 10: REDUCED INEQUALITIES</button>
+          </a>
+          <a href="Goal11_Page.html">
+            <button class="drop-menu-text dm-btn-goal11">GOAL 11: SUSTAINABLE CITIES AND COMMUNITIES</button>
+          </a>
+          <a href="Goal12_Page.html">
+            <button class="drop-menu-text dm-btn-goal12">GOAL 12: RESPONSIBLE CONSUMPTION AND PRODUCTION</button>
+          </a>
+          <a href="Goal13_Page.html">
+            <button class="drop-menu-text dm-btn-goal13">GOAL 13: CLIMATE ACTION</button>
+          </a>
+          <a href="Goal14_Page.html">
+            <button class="drop-menu-text dm-btn-goal14">GOAL 14: LIFE BELOW WATER</button>
+          </a>
+          <a href="Goal15_Page.html">
+            <button class="drop-menu-text dm-btn-goal15">GOAL 15: LIFE ON LAND</button>
+          </a>
+          <a href="Goal16_Page.html">
+            <button class="drop-menu-text dm-btn-goal16">GOAL 16: PEACE, JUSTICE AND STRONG INSTITUTIONS</button>
+          </a>
+          <a href="Goal17_Page.html">
+            <button class="drop-menu-text dm-btn-goal17">GOAL 17: PARTNERSHIPS FOR THE GOALS</button>
+          </a>
+        </div>
+
+        <!--About Us Button of the Navigation Bar that goes directly into the Aboout Us Webpage when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="navi-bar-button-text aboutUs-button">ABOUT US</button>
+        </a>
+
+        <!--Facebook Logo Button of the Navigation Bar that goes directly into the Official Facebook Page of SDG Campaigns when clicked-->
+        <a href="https://www.facebook.com/globalgoalsUN">
+          <button class="soc-med-icons fb-logo">
+            <img id="fb-logo" src="Assets/fb_logo.png" alt="SDG Faceook" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Twitter Logo Button of the Navigation Bar that goes directly into the Official Twitter Page of SDG Campaigns when clicked-->
+        <a href="https://twitter.com/connectsdgs?lang=en">
+          <button class="soc-med-icons twitter-logo">
+            <img id="twitter-logo" src="Assets/twitter_logo.png" alt="SDG Twitter" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Instagram Logo Button of the Navigation Bar that goes directly into the Official Instagram Page of SDG Campaigns when clicked-->
+        <a href="https://www.instagram.com/theglobalgoals/?hl=en">
+          <button class="soc-med-icons ig-logo">
+            <img id="ig-logo" src="Assets/ig_logo.png" alt="SDG Instagram" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Separator Bar that seperates the Navigation Bar from the Main Content-->
+        <div class="header-separator"></div>
+
+
+        <!--End of Navigation Bar-->
+        <!--Start of Main Content-->
+
+
+        <!--Icon Image of the Sustainable Development Goal. This conatins the id of the page that is used for the javascript implementation-->
+        <img id="page-goal13" class="goal-icon" src="Assets/SDG Icons/Goal-13.png" alt="Goal 13 Logo" width="300" height="300">
+
+        <!--Indicates the Goal Number of the SDG-->
+        <div class="goal-number-box">
+            <div class="goal-number-text">Goal 13</div>
+        </div>
+
+        <!--Displays the complete name of the goal-->
+        <div class="complete-name">Take urgent action to combat climate change and its impacts</div>
+
+        <!--Displays the main objective of the goal-->
+        <div class="main-goal-box">
+            <div class="main-goal-text">Taking urgent action to tackle climate change and its impacts.</div>
+        </div>
+
+        <!--These are navigation buttons which enables the user to go the previous and next Goal page-->
+        <a href="Goal12_Page.html">
+            <button class="prev-next-btn-text prev-btn">< Prev</button>
+        </a>
+        <a href="Goal14_Page.html">
+            <button class="prev-next-btn-text next-btn">Next ></button>
+        </a>
+
+        <!--This contains the description that answers why the goal matters to be achieved-->
+        <div class="matter-container">
+            <p class="header-text">Why does it matter?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                The climate crisis continues unabated as the global community shies away from the full commitment required for its reversal. 2010-2019 was warmest decade ever recorded, bringing with it massive wildfires, hurricanes, droughts, floods and other climate disasters across continents.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Climate change is affecting every country in the world. It is disrupting national economies and affecting lives and livelihoods, especially for the most vulnerable. Weather patterns are changing, sea levels are rising, and weather events are becoming more extreme, affecting more than 39 million people in 2018.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                If left unchecked, climate change will cause average global temperatures to increase beyond 3°C, and will adversely affect every ecosystem. Already, we are seeing how climate change can exacerbate storms and disasters, and threats such as food and water scarcity, which can lead to conflict.
+              </p>
+        </div>
+
+        <!--Displays the infographic containing significant information related to the goal-->
+        <img class="infograph" src="Assets/SDG Infographs/Infograph-Goal-13.png" alt="Goal 12 Infograph" width="1120" height="1371">
+
+        <!--This contains the description that answers what the audience can do to help in achieving the goal-->
+        <div class="can-do-container">
+            <p class="header-text">So what can I do about it?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Here are some ways you can help with preventing the increase of climate change: Compost, composting food scraps can reduce climate impact while also recycling nutrients. Reduce your use of paper, avoid printing and substitute it with electronic devices or carriers. Recycle paper, glass, plastic, metal and old electronics. Buy eco-friendly products, Read the packaging to see if products are produced in an eco-friendly way. Choose reusable products, Use an eco-bag for shopping and a reusable water bottle or a cup to reduce your plastic waste.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Offset your carbon emissions. Bike, walk or take public transport. Save the car trips for when you’ve got a big group.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Consume less meat and become vegetarian for one day a week. The meat production industry has a huge impact on the environment.
+              </p>
+                <!-- <br><br>&nbsp;&nbsp;&nbsp;&nbsp; -->
+        </div>
+
+        <!--The next elements from this point displays the list of specific targets for the corresponding Sustainable Development Goal-->
+        <div class="spec-target-header-box">
+            <div class="spec-target-header-text">Specific targets</div>
+        </div>
+        <div class="target-list-container">
+            <ul>
+              <li>13.1 Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries.</li>
+              <li>13.2 Integrate climate change measures into national policies, strategies and planning.</li>
+              <li>13.3 Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.</li>
+              <li>13.A Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible.</li>
+              <li>13.B Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities.</li>
+              <br><br>
+              <li>*Acknowledging that the United Nations Framework Convention on Climate Change is the primary international, intergovernmental forum for negotiating the global response to climate change.</li>
+            </ul>
+        </div>
+
+        <!--End of Main Content-->
+
+        <!--A line that separates the main content of the page from the footer-->
+        <div class="footline"></div>
+        <!--Footer Button that enables the user to go to the About Us Page when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="about-us">About Us</button>
+        </a>
+    </div>
+    <!--JavaScript Implementation-->
+    <!--JavaScript Implementation-->
+    <script src="Goal_Page.js"></script>
+    <script src="NavigationBar.js"></script>
+</body>
+</html>

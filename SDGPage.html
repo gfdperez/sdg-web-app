@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 17 SDGs</title>
+    <!--CSS Implementation-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="SDGPage.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Start of Navigation Bar-->
+        <!--Official Logo of the Sustainable Development Goals-->
+        <div class="logo-SDG-compact">
+          <img src="Assets/SDG_Logo_NaviBar.png" alt="SDG Logo" width="140" height="83">
+        </div>
+
+        <!--Home Button of the Navigation Bar that goes directly into the Home Webpage when clicked-->
+        <a href="index.html">
+          <button class="navi-bar-button-text home-button">HOME</button>
+        </a>
+        
+        <!--SDG Page Button of the Navigation Bar-->
+        <button class="navi-bar-button-text sdg-button">THE 17 SDG</button>
+        <!--A Drop-Down Menu Bar is display when the SDG Page Button is clicked-->
+        <div class="drop-menu-container">
+          <!--This Drop-Down Menu lists all goals under the 17 SDGs. 
+            The users can directly go to the page of the specific or
+            they can see all the SDGs with their icons and overall 
+            progress on a separate webpage.
+          -->
+          <a href="SDGPage.html">
+            <button class="drop-menu-text dm-btn-see-all">SEE ALL SGDs AND OVERALL PROGRESS</button>
+          </a>
+          <a href="Goal1_Page.html">
+            <button class="drop-menu-text dm-btn-goal1">GOAL 1: NO POVERTY</button>
+          </a>
+          <a href="Goal2_Page.html">
+            <button class="drop-menu-text dm-btn-goal2">GOAL 2: ZERO HUNGER</button>
+          </a>
+          <a href="Goal3_Page.html">
+            <button class="drop-menu-text dm-btn-goal3">GOAL 3: GOOD AND HEALTH AND WELL-BEING</button>
+          </a>
+          <a href="Goal4_Page.html">
+            <button class="drop-menu-text dm-btn-goal4">GOAL 4: QUALITY EDUCATION</button>
+          </a>
+          <a href="Goal5_Page.html">
+            <button class="drop-menu-text dm-btn-goal5">GOAL 5: GENDER EQUALITY</button>
+          </a>
+          <a href="Goal6_Page.html">
+            <button class="drop-menu-text dm-btn-goal6">GOAL 6: CLEAN WATER AND SANITATION</button>
+          </a>
+          <a href="Goal7_Page.html">
+            <button class="drop-menu-text dm-btn-goal7">GOAL 7: AFFORDABLE AND CLEAN ENERGY</button>
+          </a>
+          <a href="Goal8_Page.html">
+            <button class="drop-menu-text dm-btn-goal8">GOAL 8: DECENT WORK AND ECONOMIC GROWTH</button>
+          </a>
+          <a href="Goal9_Page.html">
+            <button class="drop-menu-text dm-btn-goal9">GOAL 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE</button>
+          </a>
+          <a href="Goal10_Page.html">
+            <button class="drop-menu-text dm-btn-goal10">GOAL 10: REDUCED INEQUALITIES</button>
+          </a>
+          <a href="Goal11_Page.html">
+            <button class="drop-menu-text dm-btn-goal11">GOAL 11: SUSTAINABLE CITIES AND COMMUNITIES</button>
+          </a>
+          <a href="Goal12_Page.html">
+            <button class="drop-menu-text dm-btn-goal12">GOAL 12: RESPONSIBLE CONSUMPTION AND PRODUCTION</button>
+          </a>
+          <a href="Goal13_Page.html">
+            <button class="drop-menu-text dm-btn-goal13">GOAL 13: CLIMATE ACTION</button>
+          </a>
+          <a href="Goal14_Page.html">
+            <button class="drop-menu-text dm-btn-goal14">GOAL 14: LIFE BELOW WATER</button>
+          </a>
+          <a href="Goal15_Page.html">
+            <button class="drop-menu-text dm-btn-goal15">GOAL 15: LIFE ON LAND</button>
+          </a>
+          <a href="Goal16_Page.html">
+            <button class="drop-menu-text dm-btn-goal16">GOAL 16: PEACE, JUSTICE AND STRONG INSTITUTIONS</button>
+          </a>
+          <a href="Goal17_Page.html">
+            <button class="drop-menu-text dm-btn-goal17">GOAL 17: PARTNERSHIPS FOR THE GOALS</button>
+          </a>
+        </div>
+
+        <!--About Us Button of the Navigation Bar that goes directly into the Aboout Us Webpage when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="navi-bar-button-text aboutUs-button">ABOUT US</button>
+        </a>
+
+        <!--Facebook Logo Button of the Navigation Bar that goes directly into the Official Facebook Page of SDG Campaigns when clicked-->
+        <a href="https://www.facebook.com/globalgoalsUN">
+          <button class="soc-med-icons fb-logo">
+            <img id="fb-logo" src="Assets/fb_logo.png" alt="SDG Faceook" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Twitter Logo Button of the Navigation Bar that goes directly into the Official Twitter Page of SDG Campaigns when clicked-->
+        <a href="https://twitter.com/connectsdgs?lang=en">
+          <button class="soc-med-icons twitter-logo">
+            <img id="twitter-logo" src="Assets/twitter_logo.png" alt="SDG Twitter" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Instagram Logo Button of the Navigation Bar that goes directly into the Official Instagram Page of SDG Campaigns when clicked-->
+        <a href="https://www.instagram.com/theglobalgoals/?hl=en">
+          <button class="soc-med-icons ig-logo">
+            <img id="ig-logo" src="Assets/ig_logo.png" alt="SDG Instagram" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Separator Bar that seperates the Navigation Bar from the Main Content-->
+        <div class="header-separator"></div>
+        <!--End of Navigation Bar-->
+
+        <!--Start of Main Content-->
+        <div class="sdg-logo-horizontal">
+          <img src="Assets/SDG_Logo_Webpages.png" alt="SDG Logo" width="1120" height="205.03">
+        </div>
+
+        <!--
+          This displays the official icon of Goal 1. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 1.
+        -->
+        <a href="Goal1_Page.html">
+          <button class="icon-goal1">
+            <img id="id-icon-goal1" class="sdg-icon-design" src="Assets/SDG Icons/Goal-01.png" alt="Goal 1" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 2. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 2.
+        -->
+        <a href="Goal2_Page.html">
+          <button class="icon-goal2">
+            <img id="id-icon-goal2" class="sdg-icon-design" src="Assets/SDG Icons/Goal-02.png" alt="Goal 2" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 3. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 3.
+        -->
+        <a href="Goal3_Page.html">
+          <button class="icon-goal3">
+            <img id="id-icon-goal3" class="sdg-icon-design" src="Assets/SDG Icons/Goal-03.png" alt="Goal 3" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 4. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 4.
+        -->
+        <a href="Goal4_Page.html">
+          <button class="icon-goal4">
+            <img id="id-icon-goal4" class="sdg-icon-design" src="Assets/SDG Icons/Goal-04.png" alt="Goal 4" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 5. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 5.
+        -->
+        <a href="Goal5_Page.html">
+          <button class="icon-goal5">
+            <img id="id-icon-goal5" class="sdg-icon-design" src="Assets/SDG Icons/Goal-05.png" alt="Goal 5" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 6. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 6.
+        -->
+        <a href="Goal6_Page.html">
+          <button class="icon-goal6">
+            <img id="id-icon-goal6" class="sdg-icon-design" src="Assets/SDG Icons/Goal-06.png" alt="Goal 6" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 7. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 7.
+        -->
+        <a href="Goal7_Page.html">
+          <button class="icon-goal7">
+            <img id="id-icon-goal7" class="sdg-icon-design" src="Assets/SDG Icons/Goal-07.png" alt="Goal 7" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 8. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 8.
+        -->
+        <a href="Goal8_Page.html">
+          <button class="icon-goal8">
+            <img id="id-icon-goal8" class="sdg-icon-design" src="Assets/SDG Icons/Goal-08.png" alt="Goal 8" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 9. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 9.
+        -->
+        <a href="Goal9_Page.html">
+          <button class="icon-goal9">
+            <img id="id-icon-goal9" class="sdg-icon-design" src="Assets/SDG Icons/Goal-09.png" alt="Goal 9" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 10. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 10.
+        -->
+        <a href="Goal10_Page.html">
+          <button class="icon-goal10">
+            <img id="id-icon-goal10" class="sdg-icon-design" src="Assets/SDG Icons/Goal-10.png" alt="Goal 10" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 11. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 11.
+        -->
+        <a href="Goal11_Page.html">
+          <button class="icon-goal11">
+            <img id="id-icon-goal11" class="sdg-icon-design" src="Assets/SDG Icons/Goal-11.png" alt="Goal 11" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 12. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 12.
+        -->
+        <a href="Goal12_Page.html">
+          <button class="icon-goal12">
+            <img id="id-icon-goal12" class="sdg-icon-design" src="Assets/SDG Icons/Goal-12.png" alt="Goal 12" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 13. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 13.
+        -->
+        <a href="Goal13_Page.html">
+          <button class="icon-goal13">
+            <img id="id-icon-goal13" class="sdg-icon-design" src="Assets/SDG Icons/Goal-13.png" alt="Goal 13" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 14. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 14.
+        -->
+        <a href="Goal14_Page.html">
+          <button class="icon-goal14">
+            <img id="id-icon-goal14" class="sdg-icon-design" src="Assets/SDG Icons/Goal-14.png" alt="Goal 14" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 15. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 15.
+        -->
+        <a href="Goal15_Page.html">
+          <button class="icon-goal15">
+            <img id="id-icon-goal15" class="sdg-icon-design" src="Assets/SDG Icons/Goal-15.png" alt="Goal 15" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 16. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 16.
+        -->
+        <a href="Goal16_Page.html">
+          <button class="icon-goal16">
+            <img id="id-icon-goal16" class="sdg-icon-design" src="Assets/SDG Icons/Goal-16.png" alt="Goal 16" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official icon of Goal 17. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will change the original icon with its inverted version +
+          an additional border. When the mouse pointer is out of it, it will return back to its original
+          state. Most importanlty, when clicked by the user, it will direct the user to the comprehensive
+          page of Goal 17.
+        -->
+        <a href="Goal17_Page.html">
+          <button class="icon-goal17">
+            <img id="id-icon-goal17" class="sdg-icon-design" src="Assets/SDG Icons/Goal-17.png" alt="Goal 17" width="170" height="170">
+          </button>
+        </a>
+
+        <!--
+          This displays the official wheel logo of SDG. It is serves as a button, and it is interactive.
+          When the mouse pointer is on it, it will reduce its opacity by 30%. When the mouse pointer is 
+          out of it, it will return back to its original state. Most importanlty, when clicked by the user, 
+          it will direct the user to the Home page.
+        -->
+        <a href="HomePage.html">
+          <button class="sdg-wheel">
+            <img class="sdg-icon-design" src="Assets/Wheel_Logo.png" alt="SDG Wheel" width="170" height="170">
+          </button>
+        </a>
+        
+        <!--A little instruction that tells the user that the icons are buttons and interactive-->
+        <div class="click-note">Click the icons to see more!</div>
+
+        <!--The last elements of the main content explain the progress being made so far in achieving the 17 SDGs-->
+        <div class="progress-container">
+          <p class="header-text">progress update</p> 
+          <p class="description-text">The Sustainable Development Goals are a call for action by all countries – poor, rich and middle-income – to promote prosperity while protecting the planet. They recognize that ending poverty must go hand-in-hand with strategies that build economic growth and address a range of social needs including education, health, social protection, and job opportunities, while tackling climate change and environmental protection. More important than ever, the goals provide a critical framework for COVID-19 recovery. Read more</p> 
+          <!--This link will lead the user to a more comprehensive document that contains the updated progress of SDGs-->
+          <a href="https://sustainabledevelopment.un.org/content/documents/29858SG_SDG_Progress_Report_2022.pdf">
+            <button class="link-text">Click Here to Learn More ></button>
+          </a>
+        </div>
+
+        <!--End of Main Content-->
+        <!--A line that separates the main content of the page from the footer-->
+        <div class="footline"></div>
+        <!--Footer Button that enables the user to go to the About Us Page when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="about-us">About Us</button>
+        </a>
+    </div>
+    <!--JavaScript Implementation-->
+    <script src="NavigationBar.js"></script>
+    <script src="SDGPage.js"></script>
+</body>
+</html>

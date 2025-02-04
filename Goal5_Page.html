@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 5: Gender Equality</title>
+    <!--CSS Implementation-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NavigationBar.css">
+    <link rel="stylesheet" href="Goal_Page.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Start of Navigation Bar-->
+        <!--Official Logo of the Sustainable Development Goals-->
+        <div class="logo-SDG-compact">
+          <img src="Assets/SDG_Logo_NaviBar.png" alt="SDG Logo" width="140" height="83">
+        </div>
+
+        <!--Home Button of the Navigation Bar that goes directly into the Home Webpage when clicked-->
+        <a href="index.html">
+          <button class="navi-bar-button-text home-button">HOME</button>
+        </a>
+
+        <!--SDG Page Button of the Navigation Bar-->
+        <button class="navi-bar-button-text sdg-button">THE 17 SDG</button>
+        <!--A Drop-Down Menu Bar is display when the SDG Page Button is clicked-->
+        <div class="drop-menu-container">
+          <!--This Drop-Down Menu lists all goals under the 17 SDGs.
+            The users can directly go to the page of the specific or
+            they can see all the SDGs with their icons and overall
+            progress on a separate webpage.
+          -->
+          <a href="SDGPage.html">
+            <button class="drop-menu-text dm-btn-see-all">SEE ALL SGDs AND OVERALL PROGRESS</button>
+          </a>
+          <a href="Goal1_Page.html">
+            <button class="drop-menu-text dm-btn-goal1">GOAL 1: NO POVERTY</button>
+          </a>
+          <a href="Goal2_Page.html">
+            <button class="drop-menu-text dm-btn-goal2">GOAL 2: ZERO HUNGER</button>
+          </a>
+          <a href="Goal3_Page.html">
+            <button class="drop-menu-text dm-btn-goal3">GOAL 3: GOOD AND HEALTH AND WELL-BEING</button>
+          </a>
+          <a href="Goal4_Page.html">
+            <button class="drop-menu-text dm-btn-goal4">GOAL 4: QUALITY EDUCATION</button>
+          </a>
+          <a href="Goal5_Page.html">
+            <button class="drop-menu-text dm-btn-goal5">GOAL 5: GENDER EQUALITY</button>
+          </a>
+          <a href="Goal6_Page.html">
+            <button class="drop-menu-text dm-btn-goal6">GOAL 6: CLEAN WATER AND SANITATION</button>
+          </a>
+          <a href="Goal7_Page.html">
+            <button class="drop-menu-text dm-btn-goal7">GOAL 7: AFFORDABLE AND CLEAN ENERGY</button>
+          </a>
+          <a href="Goal8_Page.html">
+            <button class="drop-menu-text dm-btn-goal8">GOAL 8: DECENT WORK AND ECONOMIC GROWTH</button>
+          </a>
+          <a href="Goal9_Page.html">
+            <button class="drop-menu-text dm-btn-goal9">GOAL 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE</button>
+          </a>
+          <a href="Goal10_Page.html">
+            <button class="drop-menu-text dm-btn-goal10">GOAL 10: REDUCED INEQUALITIES</button>
+          </a>
+          <a href="Goal11_Page.html">
+            <button class="drop-menu-text dm-btn-goal11">GOAL 11: SUSTAINABLE CITIES AND COMMUNITIES</button>
+          </a>
+          <a href="Goal12_Page.html">
+            <button class="drop-menu-text dm-btn-goal12">GOAL 12: RESPONSIBLE CONSUMPTION AND PRODUCTION</button>
+          </a>
+          <a href="Goal13_Page.html">
+            <button class="drop-menu-text dm-btn-goal13">GOAL 13: CLIMATE ACTION</button>
+          </a>
+          <a href="Goal14_Page.html">
+            <button class="drop-menu-text dm-btn-goal14">GOAL 14: LIFE BELOW WATER</button>
+          </a>
+          <a href="Goal15_Page.html">
+            <button class="drop-menu-text dm-btn-goal15">GOAL 15: LIFE ON LAND</button>
+          </a>
+          <a href="Goal16_Page.html">
+            <button class="drop-menu-text dm-btn-goal16">GOAL 16: PEACE, JUSTICE AND STRONG INSTITUTIONS</button>
+          </a>
+          <a href="Goal17_Page.html">
+            <button class="drop-menu-text dm-btn-goal17">GOAL 17: PARTNERSHIPS FOR THE GOALS</button>
+          </a>
+        </div>
+
+        <!--About Us Button of the Navigation Bar that goes directly into the Aboout Us Webpage when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="navi-bar-button-text aboutUs-button">ABOUT US</button>
+        </a>
+
+        <!--Facebook Logo Button of the Navigation Bar that goes directly into the Official Facebook Page of SDG Campaigns when clicked-->
+        <a href="https://www.facebook.com/globalgoalsUN">
+          <button class="soc-med-icons fb-logo">
+            <img id="fb-logo" src="Assets/fb_logo.png" alt="SDG Faceook" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Twitter Logo Button of the Navigation Bar that goes directly into the Official Twitter Page of SDG Campaigns when clicked-->
+        <a href="https://twitter.com/connectsdgs?lang=en">
+          <button class="soc-med-icons twitter-logo">
+            <img id="twitter-logo" src="Assets/twitter_logo.png" alt="SDG Twitter" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Instagram Logo Button of the Navigation Bar that goes directly into the Official Instagram Page of SDG Campaigns when clicked-->
+        <a href="https://www.instagram.com/theglobalgoals/?hl=en">
+          <button class="soc-med-icons ig-logo">
+            <img id="ig-logo" src="Assets/ig_logo.png" alt="SDG Instagram" width="25" height="25">
+          </button>
+        </a>
+
+        <!--Separator Bar that seperates the Navigation Bar from the Main Content-->
+        <div class="header-separator"></div>
+
+
+        <!--End of Navigation Bar-->
+        <!--Start of Main Content-->
+
+
+        <!--Icon Image of the Sustainable Development Goal. This conatins the id of the page that is used for the javascript implementation-->
+        <img id="page-goal5" class="goal-icon" src="Assets/SDG Icons/Goal-05.png" alt="Goal 5 Logo" width="300" height="300">
+
+        <!--Indicates the Goal Number of the SDG-->
+        <div class="goal-number-box">
+            <div class="goal-number-text">Goal 5</div>
+        </div>
+
+        <!--Displays the complete name of the goal-->
+        <div class="complete-name">Achieve gender equality and empower all women and girls</div>
+
+        <!--Displays the main objective of the goal-->
+        <div class="main-goal-box">
+            <div class="main-goal-text">To achieve gender equality and empower all women and girls.</div>
+        </div>
+
+        <!--These are navigation buttons which enables the user to go the previous and next Goal page-->
+        <a href="Goal4_Page.html">
+            <button class="prev-next-btn-text prev-btn">< Prev</button>
+        </a>
+        <a href="Goal6_Page.html">
+            <button class="prev-next-btn-text next-btn">Next ></button>
+        </a>
+
+        <!--This contains the description that answers why the goal matters to be achieved-->
+        <div class="matter-container">
+            <p class="header-text">Why does it matter?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Women and girls represent half of the world’s population and therefore also half of its potential. But, today gender inequality persists everywhere and stagnates social progress. Women continue to be underrepresented at all levels of political leadership. Across the globe, women and girls perform a disproportionate share of unpaid domestic work.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Inequalities faced by girls can begin right at birth and follow them all their lives. In some countries, girls are deprived of access to health care or proper nutrition, leading to a higher mortality rate.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                Worldwide, 35 per cent of women between 15-49 years of age have experienced physical and/ or sexual intimate partner violence or non-partner sexual violence. 1 in 3 girls aged 15-19 have experienced some form of female genital mutilation/cutting in the 30 countries in Africa and the Middle East, where the harmful practice is most common with a high risk of prolonged bleeding, infection (including HIV), childbirth complications, infertility and death.
+              </p>
+        </div>
+
+        <!--Displays the infographic containing significant information related to the goal-->
+        <img class="infograph" src="Assets/SDG Infographs/Infograph-Goal-05.png" alt="Goal 5 Infograph" width="1120" height="1371">
+
+        <!--This contains the description that answers what the audience can do to help in achieving the goal-->
+        <div class="can-do-container">
+            <p class="header-text">So what can I do about it?</p>
+            <p class="description-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                If you are a girl, you can stay in school, help empower your female classmates to do the same and fight for your right to access sexual and reproductive health services. If you are a woman, you can address unconscious biases and implicit associations that form an unintended and often an invisible barrier to equal opportunity.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                If you are a man or a boy, you can work alongside women and girls to achieve gender equality and embrace healthy, respectful relationships.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                You can fund education campaigns to curb cultural practices like female genital mutilation and change harmful laws that limit the rights of women and girls and prevent them from achieving their full potential.
+              </p>
+                <!-- <br><br>&nbsp;&nbsp;&nbsp;&nbsp; -->
+        </div>
+
+        <!--The next elements from this point displays the list of specific targets for the corresponding Sustainable Development Goal-->
+        <div class="spec-target-header-box">
+            <div class="spec-target-header-text">Specific targets</div>
+        </div>
+        <div class="target-list-container">
+            <ul>
+            <li>5.1 End all forms of discrimination against all women and girls everywhere.</li>
+            <li>5.2 Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.</li>
+            <li>5.3 Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation</li>
+            <li>5.4 Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate.</li>
+            <li>5.5 Ensure women’s full and effective participation and equal opportunities for leadership at all levels of decisionmaking in political, economic and public life.</li>
+            <li>5.6 Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences.</li>
+            <li>5.A Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws.</li>
+            <li>5.B Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.</li>
+            <li>5.C Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels.</li>
+            </ul>
+        </div>
+
+        <!--End of Main Content-->
+
+        <!--A line that separates the main content of the page from the footer-->
+        <div class="footline"></div>
+        <!--Footer Button that enables the user to go to the About Us Page when clicked-->
+        <a href="AboutUsPage.html">
+          <button class="about-us">About Us</button>
+        </a>
+    </div>
+    <!--JavaScript Implementation-->
+    <!--JavaScript Implementation-->
+    <script src="Goal_Page.js"></script>
+    <script src="NavigationBar.js"></script>
+</body>
+</html>
